@@ -1,0 +1,22 @@
+From f21fc39e6bb9fb1ef4da92866488e717639dfa4d Mon Sep 17 00:00:00 2001
+From: Yazan Shhady <yazan.shhady@solid-run.com>
+Date: Tue, 10 Aug 2021 15:50:05 +0300
+Subject: [PATCH] add imx8mn support
+
+---
+ scripts/build.conf | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/scripts/build.conf b/scripts/build.conf
+index fba638a..9d00424 100644
+--- a/scripts/build.conf
++++ b/scripts/build.conf
+@@ -1,4 +1,4 @@
+-devices=in6gq in6gsdl n6gq n6gsdl solidsense
++devices=in6gq in6gsdl n6gq n6gsdl solidsense imx8mn
+ product=Solidsense
+ release=dev
+ iteration=00
+-- 
+2.25.1
+
