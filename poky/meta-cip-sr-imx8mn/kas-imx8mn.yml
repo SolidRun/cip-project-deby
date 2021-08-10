@@ -1,0 +1,11 @@
+# Copyright (C) 2016-2017, Solidrun, Eric Bree <eric.bree@solid-run.com>
+# SPDX-License-Identifier:	MIT
+# CIP core kas solidsense imx8mn compact configuration
+header:
+    version: 7
+machine: imx8mn
+repos:
+    meta-custom:
+        layers:
+            poky/meta-cip-sr-imx8mn:
+

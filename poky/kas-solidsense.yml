@@ -78,3 +78,14 @@ repos:
             0001:
                 repo: meta-cip-sr-common
                 path: patches/meta-iot-cloud/0001-upgrade-maven.patch
+
+
+    meta-solidrun-arm-imx8:
+        url: "https://github.com/SolidRun/meta-solidrun-arm-imx8"
+        refspec: zeus-imx8mn
+
+
+    meta-freescale:
+        url: "https://github.com/Freescale/meta-freescale"
+        refspec: 14f1a630a47375432f93c556927b879b51d84c4e
+
